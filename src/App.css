@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  /* background-color: #f1f1fb; */
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  padding: 0rem 0.5rem;
+  /* display: flex; */
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header {
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  background-color: #000;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header,
+.footer {
+  /* background-color: purple; */
+  height: 70px;
+  width: 100%;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.sidebar {
+  position: fixed;
+  right: 0rem;
+  z-index: 99;
+  top: 10vh;
+  background-color: rgba(10, 10, 10, 0.289);
+  backdrop-filter: blur(10px);
+  width: 20%;
+  height: 90vh;
+  transition: all ease-in-out 5s;
+  overflow-y: scroll;
+  /* height: 64px; */
+}
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+.movies {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  /* height: 64px; */
 }
-
-.App-link {
-  color: #61dafb;
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100px;
+  padding: 0rem 1rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.pagination span {
+  padding: 0.6rem;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+  margin: 0rem 0.3rem;
+}
+.pagination span:hover {
+  border-bottom: 2px solid yellow;
+  color: yellow;
+}
+.pagination .selected__page {
+  border-bottom: 2px solid yellow;
+  color: yellow;
+}
+.pagination .previous,
+.pagination .next {
+  border-bottom: none;
+}
+@media (max-width: 565px) {
+  .sidebar {
+    width: 50%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.pnf-title {
+  text-align: center;
+  padding: 1rem;
 }

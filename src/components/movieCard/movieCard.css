@@ -1,0 +1,95 @@
+.card {
+  border-radius: 0.4rem;
+  background-color: black;
+  color: #ffffff;
+  height: 500px;
+  /* width: 300px; */
+  width: 24%;
+  min-width: 300px;
+
+  overflow: hidden;
+  border: 1px solid yellow;
+  position: relative;
+}
+.card:hover {
+  .movie__img img {
+    scale: 1.2;
+  }
+}
+.card .movie__img {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.4rem;
+}
+.card .movie__details {
+  background-color: rgba(8, 8, 8, 0.541);
+  padding: 0.5rem;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: fit-content;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all ease-in-out 5s;
+}
+.card .title {
+  font-size: 1.4rem;
+  width: 100%;
+  margin: 5px 0px 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card .genre,
+.card .language,
+.card .country {
+  font-size: 0.7rem;
+  padding: 3px 12px 6px;
+
+  border-radius: 100px;
+  border: 1px solid #f3efef7a;
+  width: fit-content;
+  height: 100px;
+  margin: 0px 5px 5px 0px;
+  color: yellow;
+}
+.card .languages,
+.card .genres,
+.card .countries {
+  overflow: scroll;
+  width: 100%;
+  white-space: nowrap;
+  height: 35px;
+}
+.card *::-webkit-scrollbar {
+  display: none;
+}
+
+.card .controls {
+  position: absolute;
+  bottom: 35%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1rem;
+}
+.card .controls .heart__icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+.card .controls .heart__icon svg path,
+.card .controls .play__icon svg path {
+  color: yellow;
+}
+.card .controls .red__heart svg path {
+  color: red;
+}
+.card .controls .play__icon {
+  cursor: pointer;
+  font-size: 3rem;
+}

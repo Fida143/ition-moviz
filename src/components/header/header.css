@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap");
+* {
+  font-family: sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1.2rem;
+  height: 100%;
+  color: yellow;
+}
+.header__left,
+.header__right {
+  height: 40px;
+  width: 50%;
+  /* background-color: purple; */
+}
+.header__left h1 {
+  font-size: 1.5rem;
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  letter-spacing: 3px;
+}
+.header__right {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+.header__right #search-bar {
+  padding: 0.4rem 0.4rem 0.8rem 0rem;
+
+  /* border-radius: 100px; */
+  outline: 0;
+  border: none;
+  width: 40%;
+  min-width: 250px;
+  background-color: transparent;
+  border-bottom: 1px solid gray;
+  color: yellow;
+  margin-right: 2rem;
+}
+.search-ico {
+  padding: 0.3rem 0.6rem 0.6rem;
+  /* margin-top: 0.4rem; */
+  /* background-color: gray; */
+  border-bottom: 1px solid gray;
+}
+.header__right #search-bar:placeholder-shown {
+  width: 40%;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  color: gray;
+  overflow: hidden;
+}
+.filter-ico {
+  cursor: pointer;
+}
+.filter-ico:hover {
+  border-bottom: 1px solid yellow;
+}
+
+.filter-ico svg {
+  font-size: 2rem;
+}
+
+@media (max-width: 565px) {
+  .header__right #search-bar {
+    display: none;
+  }
+
+  .search-ico {
+    border-bottom: none;
+  }
+  .header__left {
+    width: 70%;
+  }
+  .header__right {
+    width: 30%;
+  }
+  .container {
+    padding: 0;
+  }
+}
