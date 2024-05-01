@@ -69,6 +69,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+### You  Can also see live  Demo using below firebase link
+
+https://movizshow-b5a4a.web.app/
+
 ### Home page 
 
 ![image](https://github.com/Fida143/ition-moviz/assets/101417366/9ac32ee0-8535-4846-9764-b898f749c331)
