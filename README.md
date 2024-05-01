@@ -68,3 +68,44 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Home page 
+
+![image](https://github.com/Fida143/ition-moviz/assets/101417366/9ac32ee0-8535-4846-9764-b898f749c331)
+
+![image](https://github.com/Fida143/ition-moviz/assets/101417366/8face63c-9d87-4693-94fd-eb41a111e4c1)
+
+
+### Filter using search input in which Debouncing is used which fetch data after .5s 
+
+![image](https://github.com/Fida143/ition-moviz/assets/101417366/339eb809-acd7-4e2c-9eb9-ee80aaeedcbd)
+
+
+### Filter sidebar 
+
+![image](https://github.com/Fida143/ition-moviz/assets/101417366/3bf0ca5c-0aee-45d8-b61c-fbef7ce4ce90)
+
+![image](https://github.com/Fida143/ition-moviz/assets/101417366/f422049a-7881-4bdc-be42-2b9adf39dce8)
+
+###  Responsive
+
+![image](https://github.com/Fida143/ition-moviz/assets/101417366/b8fd7796-9446-4171-b107-d5f5c0f2a6ef)
+
+![image](https://github.com/Fida143/ition-moviz/assets/101417366/5c46087b-3541-48e1-bfcc-c61119154de1)
+
+![image](https://github.com/Fida143/ition-moviz/assets/101417366/6989cb1a-7aba-4f09-b15b-7856eb7cdd72)
+
+
+
+
+### Additional Feature 
+
+### add Favorite movie 
+
+![image](https://github.com/Fida143/ition-moviz/assets/101417366/33f658b0-ce9c-4a1a-9de3-0920e5739c67)
+
+### if we uncheck heart then the unchecked movie will remove from list
+
+![image](https://github.com/Fida143/ition-moviz/assets/101417366/c17fec34-f6c5-4767-9630-c29d81d440de)
+
+
